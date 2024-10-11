@@ -1,16 +1,46 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
-    <link rel="icon" type="image/png" href="/images/favicon.png" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="favicon.ico" />
     <title>College Division Map</title>
-</head>
-<body>
-    <header id="header"></header>
+    <meta
+      name="description"
+      content="Interactive webpage that visually represents NCAA college football schools by conference on a map."
+    />
+    <meta name="author" content="Vern Wolfley" />
+    <meta name="copyright" content="Copyright 2024" />
+    <meta name="theme-color" content="#021f41" />
+
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <header id="header">
+      <nav class="nav">
+        <div class="nav-title">
+          <img src="./public/images/ncaa-png-logo-3239.png" alt="ncaa logo" />
+          <h1>College Division Map</h1>
+        </div>
+        <div class="nav-menu">
+          <button class="nav-toggle">
+            <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <title>Menu</title>
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+            </svg>
+          </button>
+        </div>
+        <div class="nav-links">
+          <div>
+            <a href="#responsive-header" class="link"> Map </a>
+            <a href="#responsive-header" class="link"> List </a>
+          </div>
+        </div>
+      </nav>
+    </header>
     <main id="main"></main>
     <footer id="footer"></footer>
-    
-</body>
+    <!-- Javascript Code for Page -->
+    <script src="scripts/main.js"></script>
+  </body>
 </html>
