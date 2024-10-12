@@ -130,3 +130,46 @@ h6 {
 #header .nav-links .link :hover {
   color: #ffffff;
 }
+
+/* About Modal */
+/* Modal container, initially hidden */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1000; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgba(0, 0, 0, 0.5); /* Background with opacity */
+}
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.modal-header h2 {
+  margin: 0 auto;
+  text-align: center;
+  flex-grow: 1;
+}
+/* Close button */
+.close {
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: auto;
+  padding: 0 10px;
+}
+
+/* Modal content */
+.modal-content {
+  background-color: white;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border-radius: 5px;
+  width: 80%; /* Could be more or less, depending on screen size */
+  max-width: 600px;
+  text-align: center;
+}
