@@ -26,6 +26,9 @@
 
 html,
 body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
   margin: 0;
   font-family: var(--font-paragraph);
   font-size: var(--font-base);
@@ -131,6 +134,15 @@ h6 {
   color: #ffffff;
 }
 
+#main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
 /* About Modal */
 /* Modal container, initially hidden */
 .modal {
@@ -172,4 +184,8 @@ h6 {
   width: 80%; /* Could be more or less, depending on screen size */
   max-width: 600px;
   text-align: center;
+}
+
+#map {
+  height: 100%;
 }

@@ -15,3 +15,7 @@ CollegeFootballAPI-https://collegefootballdata.com/
 SportsDataAPI-https://sportsdata.io/
 FootballAPI-https://www.api-football.com/documentation-v3
 CollegeSportsAPI-https://www.postman.com/api-evangelist/college-football-data/collection/el6ukhf/college-football-data-api
+
+
+### Leaflet basemap options
+https://leaflet-extras.github.io/leaflet-providers/preview/
